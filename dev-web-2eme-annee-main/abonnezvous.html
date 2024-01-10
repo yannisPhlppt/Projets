@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Abonnez_vous</title>
+  <link rel="stylesheet" href = "css/css.css">
+</head>
+<body>
+<header>
+  <nav id = "barre">
+    <input type="checkbox" id="burger-shower" class="burger-shower">
+    <label for="burger-shower" class="hamburger">
+      <hr>
+      <hr>
+      <hr>
+    </label>
+    <ul class="burger-menu">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="">Présentation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="blog.html">Blog</a>
+        <ul id = "menu_deroulant">
+          <li><a href="articles/pageblog.html">What is Lorem Ipsum?</a></li>
+          <li><a href="articles/whydo.html">Why do we use it?</a></li>
+          <li><a href="articles/wheredoes.html">Where does it come from?</a></li>
+          <li><a href="articles/wherecan.html">Where can I get some?</a></li>
+        </ul>
+      </li>
+      <li><a href="abonnezvous.html">Abonnez-vous</a></li>
+      <li><a href="statistiques.html">Statistiques</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+    <section id="entete_abonnez">
+      <h1>Abonnez-vous</h1>
+    </section>
+    <div class="questions">
+    <form action="" method="post" class="formulaire">
+      <fieldset>
+
+        <legend> Informations personnelles </legend>
+
+        <label for="nom">Nom : </label>
+        <input type="text" name="username" id="nom">
+
+        <label for="prenom">Prénom : </label>
+        <input type="text" name="username" id="prenom">
+
+        <label for="mail">Adresse email : </label>
+        <input type="email" name="email" id="mail">
+
+        <label for="password">Mot de passe : </label>
+        <input type="password" name="password" id="password">
+
+        <label for="datenaissance">Date de naissance : </label>
+        <input type="date" name="date" id="datenaissance" min="1950-01-01" max="2010-12-31">
+
+        <label for="adresse">Adresse : </label>
+        <input type="text" name="adresse" id="adresse">
+
+        <label for="codepostal">Code postal : </label>
+        <input type="text" name="codepostal" id="codepostal" pattern="[0-9]{5}" maxlength="5">
+
+        <label for="ville">Ville : </label>
+        <input type="text" name="ville" id="ville">
+
+        <label for="sexe">Sexe : </label>
+        <input type="radio" name="sex" value="man"  id="sexe"> Homme
+        <input type="radio" name="sex" value="woman"> Femme
+        <input type="radio" name="sex" value="other" checked> Non renseigné
+
+        <label for="avatar">Photo : </label>
+        <input type="file" name="avatar"
+               accept="image/png, image/jpeg, image/jpg" id="avatar">
+        
+        <div class="checkbox">
+          <label for="loisirs">Loisirs : </label>
+          <input type="checkbox" name="loisirs" id="loisirs"> Jouer aux jeux-vidéo <br>
+          <input type="checkbox" name="loisirs" > Faire du sport<br>
+          <input type="checkbox" name="loisirs" > Recevoir des amis<br>
+          <input type="checkbox" name="loisirs" > Aller au cinéma<br>
+          <input type="checkbox" name="loisirs" >  Faire la fête<br>
+          <input type="checkbox" name="loisirs" > Bronzer<br>
+          <input type="checkbox" name="loisirs" > Faire de la randonnée<br>
+          <input type="checkbox" name="loisirs" > Voyager<br>
+          <input type="checkbox" name="loisirs" > Faire du bricolage<br>
+          <input type="checkbox" name="loisirs" > Cuisiner<br>
+        </div>
+        
+        <label for="colorpicker">Couleur préférée :</label>
+        <input type="color" id="colorpicker" value="#0000ff">
+        <br>
+        <button type="submit">Envoyer</button>
+      </fieldset>
+    </form>
+    </div>
+  </main>
+  <footer>
+    <ul>
+      <li><p><strong>&copy; Copyright</strong></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, eos!</p>
+      </li>
+      <li><a href="contact.html">Page de contact</a></li>
+      <li><a href="articles/pageblog.html">What is Lorem Ipsum?</a></li>
+      <li><a href="articles/whydo.html">Why do we use it?</a></li>
+      <li><a href="articles/wheredoes.html">Where does it come from?</a></li>
+    </ul>
+  </footer>
+<script src="js/js.js"></script>
+</body>
+</html>

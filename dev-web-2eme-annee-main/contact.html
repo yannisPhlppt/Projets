@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href = "css/css.css">
+</head>
+<body>
+<header>
+    <nav id = "barre">
+        <input type="checkbox" id="burger-shower" class="burger-shower">
+        <label for="burger-shower" class="hamburger">
+            <hr>
+            <hr>
+            <hr>
+        </label>
+        <ul class="burger-menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="">Présentation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a>
+                <ul id = "menu_deroulant">
+                    <li><a href="articles/pageblog.html">What is Lorem Ipsum?</a></li>
+                    <li><a href="articles/whydo.html">Why do we use it?</a></li>
+                    <li><a href="articles/wheredoes.html">Where does it come from?</a></li>
+                    <li><a href="articles/wherecan.html">Where can I get some?</a></li>
+                </ul>
+            </li>
+            <li><a href="abonnezvous.html">Abonnez-vous</a></li>
+            <li><a href="statistiques.html">Statistiques</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="entete_contact">
+        <h1>Contact</h1>
+    </section>
+    <div class="questions">
+    <form action="" method="post" class="formulaire">
+        <fieldset>
+            <legend>Contactez-moi</legend>
+
+        <label for="nom">Nom : </label>
+        <input type="text" name="username" id="nom">
+
+        <label for="prenom">Prénom : </label>
+        <input type="text" name="username" id="prenom">
+
+        <label for="sujet">Sujet du message : </label>
+        <input type="text" name="text" id="sujet">
+
+        <label for="mail">Adresse email : </label>
+        <input type="email" name="email" id="mail">
+
+        <label for="message">Message : </label>
+        <textarea id="message"></textarea><br>
+
+        <button type="submit">Envoyer</button>
+        </fieldset>
+    </form>
+    </div>
+</main>
+<aside>
+  <ul>
+    <li><p>Nom de l'entreprise :</p></li>
+    <li><p>Blog Lorem</p></li>
+    <li><p>Date de création : </p></li>
+    <li><p>1982</p></li>
+    <li><p>Nombre d'employés</p></li>
+    <li><p>143</p></li>
+  </ul>
+</aside>
+<footer id="footer_conctact">
+    <ul>
+        <li><p><strong>&copy; Copyright</strong></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, eos!</p>
+        </li>
+        <li><a href="contact.html">Page de contact</a></li>
+        <li><a href="articles/pageblog.html">What is Lorem Ipsum?</a></li>
+        <li><a href="articles/whydo.html">Why do we use it?</a></li>
+        <li><a href="articles/wheredoes.html">Where does it come from?</a></li>
+    </ul>
+</footer>
+<script src="js/js.js"></script>
+</body>
+</html>
